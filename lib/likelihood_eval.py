@@ -269,4 +269,3 @@ def compute_poisson_proc_likelihood(truth, pred_y, info, mask=None):
 
     # poisson_log_l shape: [n_traj_samples, n_traj]
     return poisson_log_l
-
